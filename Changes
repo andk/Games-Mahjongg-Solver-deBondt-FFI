@@ -1,5 +1,11 @@
 2025-07-07  Andreas Koenig  <andk@cpan.org>
 
+	* release 0.0.2
+
+        * add missing dependency declarations
+
+2025-07-07  Andreas Koenig  <andk@cpan.org>
+
 	* release 0.0.1
 
 	* hello unsuspecting world,

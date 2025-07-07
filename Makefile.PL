@@ -55,12 +55,14 @@ WriteMakefile(
         ABSTRACT_FROM  => $version_from, # retrieve abstract from module
         NAME      => 'Games::Mahjongg::Solver::deBondt::FFI',
         DISTNAME  => 'Games-Mahjongg-Solver-deBondt-FFI',
-        VERSION   => '0.0.1',
+        VERSION   => '0.0.2',
         PREREQ_PM => {
-            'FFI::Platypus'         => 1,
-            'FFI::Platypus::Memory' => 0,
-            'FFI::CheckLib'         => 0,
-            'File::Path'            => 0,
+            'FFI::Build::MM'           => 0,
+            'FFI::Platypus'            => 1,
+            'FFI::Platypus::Lang::CPP' => 1,
+            'FFI::Platypus::Memory'    => 0,
+            'FFI::CheckLib'            => 0,
+            'File::Path'               => 0,
         },
         TEST_REQUIRES => {
             'Test::More'            => 0,
