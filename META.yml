@@ -7,7 +7,7 @@ build_requires:
   Test::More: '0'
   YAML::XS: '0'
 configure_requires:
-  ExtUtils::MakeMaker: '0'
+  FFI::Build::MM: '0'
 dynamic_config: 1
 generated_by: 'ExtUtils::MakeMaker version 7.62, CPAN::Meta::Converter version 2.150010'
 license: unknown
@@ -20,7 +20,6 @@ no_index:
     - t
     - inc
 requires:
-  FFI::Build::MM: '0'
   FFI::CheckLib: '0'
   FFI::Platypus: '1'
   FFI::Platypus::Lang::CPP: '1'
@@ -29,5 +28,5 @@ requires:
 resources:
   bugtracker: https://github.com/andk/Games-Mahjongg-Solver-deBondt-FFI/issues
   repository: git://github.com/andk/Games-Mahjongg-Solver-deBondt-FFI.git
-version: v0.0.2
+version: v0.0.3
 x_serialization_backend: 'CPAN::Meta::YAML version 0.018'
