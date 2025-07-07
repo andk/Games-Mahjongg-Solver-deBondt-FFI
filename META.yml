@@ -20,12 +20,14 @@ no_index:
     - t
     - inc
 requires:
+  FFI::Build::MM: '0'
   FFI::CheckLib: '0'
   FFI::Platypus: '1'
+  FFI::Platypus::Lang::CPP: '1'
   FFI::Platypus::Memory: '0'
   File::Path: '0'
 resources:
   bugtracker: https://github.com/andk/Games-Mahjongg-Solver-deBondt-FFI/issues
   repository: git://github.com/andk/Games-Mahjongg-Solver-deBondt-FFI.git
-version: v0.0.1
+version: v0.0.2
 x_serialization_backend: 'CPAN::Meta::YAML version 0.018'
