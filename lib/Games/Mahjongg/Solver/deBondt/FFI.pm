@@ -1,6 +1,6 @@
 package Games::Mahjongg::Solver::deBondt::FFI;
 
-$VERSION = '0.0.2';
+$VERSION = '0.0.3';
 my $pm_file = __FILE__;
 use File::Basename qw(dirname);
 my $pm_dir = dirname $pm_file;

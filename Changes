@@ -1,5 +1,11 @@
 2025-07-07  Andreas Koenig  <andk@cpan.org>
 
+	* release 0.0.3
+
+        * add CONFIGURE_REQUIRES
+
+2025-07-07  Andreas Koenig  <andk@cpan.org>
+
 	* release 0.0.2
 
         * add missing dependency declarations
