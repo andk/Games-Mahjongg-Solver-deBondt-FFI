@@ -155,6 +155,13 @@ the-release-name :
 	$(NOECHO) $(ECHO) 'version ' $(VERSION)
 	$(NOECHO) $(ECHO) 'release-name ' $(DISTVNAME).tar$(SUFFIX)
 
+release ::
+	[ -e META.json ]
+	ls -l $(DISTVNAME).tar$(SUFFIX)
+	rm -rf $(DISTVNAME)
+	$(NOECHO) $(ECHO) '#### Suggested next steps (if all looks good):'
+	$(NOECHO) $(ECHO) git tag -m '"This is $(VERSION)"' '"$(VERSION)"'
+	$(NOECHO) $(ECHO) '  git push --tags origin main'
 
 };
     join "", @m;
