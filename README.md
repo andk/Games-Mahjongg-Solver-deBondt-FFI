@@ -13,9 +13,6 @@
 
   * Kmahjongg Homepage: https://apps.kde.org/kmahjongg/
 
-  * Games-KMahjongg-AutoPlay, a docker+xnest+perl autoplay setup that uses this
-    library and can be found at https://github.com/andk/Games-KMahjongg-AutoPlay
-
 ## COPYRIGHT/LICENSE:
 
   * See the file COPYRIGHT in this repository
